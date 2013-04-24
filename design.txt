@@ -65,12 +65,12 @@ unhosted (p2p)
  - web app uses per-user data storage
   - each user hosts own data
  - web app naturally scales with users at no additional cost
-  - each app runs locally as part of p2p network
+  - p2p network of browser-side apps with self-hosted per-user data
 ---------------------------------------------------------------------
 open source
  - paradigm shift for development
   - http://www.catb.org/esr/writings/homesteading/
- - marketplace targets early open source economy
+ - unbazaar targets early open source economy
   - http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm
  - our software licensed under AGPL (copyleft)
 ---------------------------------------------------------------------
@@ -101,6 +101,26 @@ components of unbazaar
  - Payment Intents => crowdfunding
   - https://payswarm.com/specs/source/payment-intents
 ---------------------------------------------------------------------
-4. roadmap (logarithmic, mockup at each significantly demonstrable step?)
+4. roadmap (logarithmic, mockup at each step?)
 ---------------------------------------------------------------------
-- https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
+next
+ - milestones:
+  - unhost user tools (Web Commerce asset)
+  - write to user locations (already unhosted)
+  - make index that searches users by location, tool
+ - bounties:
+  - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
+---------------------------------------------------------------------
+later
+ - milestones:
+  - unhost user recipes (Web Commerce asset)
+  - make index that searches users by location, recipe
+---------------------------------------------------------------------
+eventually
+ - milestones:
+  - unhost 3d designs with openjscad.org
+---------------------------------------------------------------------
+finally
+ - milestones:
+  - unhost user listings (Web Commerce listing) [w/ bitcoin addr]
+  - users pay through Web Payments
