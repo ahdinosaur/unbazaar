@@ -42,9 +42,11 @@ yet this equipment is idle
 high consumer demand
  - paper printing
   - copy centers
- - 3d printing
+ - 3d printed parts
   - http://www.shapeways.com/
   - http://www.thingiverse.com/ 
+ - furniture
+ - art
 ---------------------------------------------------------------------
 connect consumers with local producers
  - producers list equipment
@@ -63,7 +65,7 @@ unhosted (p2p)
  - web app uses per-user data storage
   - each user hosts own data
  - web app naturally scales with users at no additional cost
-  - each user is part of p2p network
+  - each app runs locally as part of p2p network
 ---------------------------------------------------------------------
 open source
  - paradigm shift for development
