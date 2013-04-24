@@ -13,6 +13,15 @@ exist in
  - communal spaces like hackerspaces
  - private spaces like homes
 ---------------------------------------------------------------------
+existing communities of producers (target audience)
+- hackerspaces
+ - most have production equipment
+ - http://hackerspaces.org/wiki/List_of_Hacker_Spaces
+- members of hackerspaces
+ - comfortable with bleeding edge systems (willing to go beyond status quo)
+ - many have production equipment
+ - many have already contributed to open source
+---------------------------------------------------------------------
 cheap producer supply
  - paper printing
   - already owned by most
@@ -25,15 +34,6 @@ cheap producer supply
   - http://labs.nortd.com/lasersaur/
  - cnc machines
   - http://www.shapeoko.com/
----------------------------------------------------------------------
-existing communities of producers (target audience)
-- hackerspaces
- - most have production equipment
- - http://hackerspaces.org/wiki/List_of_Hacker_Spaces
-- members of hackerspaces
- - comfortable with bleeding edge systems (willing to go beyond status quo)
- - many have production equipment
- - many have already contributed to open source
 ---------------------------------------------------------------------
 yet this equipment is idle
  - aside from occasional projects, most equipment spends most time idle
