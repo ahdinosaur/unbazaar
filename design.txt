@@ -103,13 +103,15 @@ components of unbazaar
 ---------------------------------------------------------------------
 4. roadmap (logarithmic, mockup at each step?)
 ---------------------------------------------------------------------
+now
+ - bounties:
+  - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
+---------------------------------------------------------------------
 next
  - milestones:
   - unhost user tools (Web Commerce asset)
   - write to user locations (already unhosted)
   - make index that searches users by location, tool
- - bounties:
-  - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
 ---------------------------------------------------------------------
 later
  - milestones:
