@@ -4,30 +4,72 @@ an unhosted marketplace for local production
 ---------------------------------------------------------------------
 1. introduction
 ---------------------------------------------------------------------
-production equipment
+unbazaar is a
+ - peer-to-peer
+ - open source
+ - currency agnostic
+marketplace
+---------------------------------------------------------------------
+p2p (http://unhosted.org)
+ - we offer client-side web app
+  - each user runs web app in browser
+ - web app uses per-user data storage
+  - each user hosts own data 
+ - web app naturally scales with users at no additional cost
+  - p2p network of browser-side apps with self-hosted per-user data
+---------------------------------------------------------------------
+open source
+ - paradigm shift for development
+  - http://www.catb.org/esr/writings/homesteading/
+ - unbazaar targets early open source economy
+  - http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm
+ - our software licensed under AGPL (copyleft)
+---------------------------------------------------------------------
+currency-agnostic
+- payswarm (https://payswarm.com/)
+---------------------------------------------------------------------
+ecosystem of marketplace
+ - source nodes are producers
+ - sink nodes are consumers
+ - other nodes are third-party intermediaries
+   - distributers, vendors, ...
+ - anyone can fulfill any role within the marketplace
+TODO: make visual graph
+---------------------------------------------------------------------
+2. initial target market
+---------------------------------------------------------------------
+consider this set of production equipment
  - paper printers
  - 3d printer
  - laser cutters 
  - cnc machines
-exist in
- - communal spaces like hackerspaces
- - private spaces like homes
 ---------------------------------------------------------------------
-existing communities of producers (target audience)
+historically
+ - expensive and closed source
+ - required significant investment
+ - only used for large-scale manufacturing
+ - small number of production factories
+---------------------------------------------------------------------
+now
+ - cheap and open source
+ - within reach of everday consumers
+ - large number of production microfactories
+---------------------------------------------------------------------
+existing communities of producers (early adopters)
 - hackerspaces
  - most have production equipment
+  - 3d printers > laser cutters > cnc machines
  - http://hackerspaces.org/wiki/List_of_Hacker_Spaces
 - members of hackerspaces
  - comfortable with bleeding edge systems (willing to go beyond status quo)
  - many have production equipment
  - many have already contributed to open source
 ---------------------------------------------------------------------
-cheap producer supply
+producer equipment cheaply available
  - paper printing
-  - already owned by most
+  - bundled with expensive ink deals
   - right now usually closed source, so could be cheaper
  - 3d printing
-  - already owned by many
   - http://www.reprap.org/wiki/RepRap_Options#Models
   - http://www.makexyz.com/
  - laser cutters
@@ -57,34 +99,6 @@ connect consumers with local producers
   - competitive with existing prices
   - supports local business
 ---------------------------------------------------------------------
-2. overview
----------------------------------------------------------------------
-unhosted (p2p)
- - we offer client-side web app
-  - each user runs web app in browser
- - web app uses per-user data storage
-  - each user hosts own data
- - web app naturally scales with users at no additional cost
-  - p2p network of browser-side apps with self-hosted per-user data
----------------------------------------------------------------------
-open source
- - paradigm shift for development
-  - http://www.catb.org/esr/writings/homesteading/
- - unbazaar targets early open source economy
-  - http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm
- - our software licensed under AGPL (copyleft)
----------------------------------------------------------------------
-currency-agnostic
-- payswarm (https://payswarm.com/)
----------------------------------------------------------------------
-ecosystem of marketplace
- - source nodes are producers
- - sink nodes are consumers
- - other nodes are third-party intermediaries
-   - distributers, vendors, ...
- - anyone can fulfill any role within the marketplace
-TODO: make visual graph
----------------------------------------------------------------------
 3. technical overview
 ---------------------------------------------------------------------
 components of unbazaar
@@ -103,26 +117,26 @@ components of unbazaar
 ---------------------------------------------------------------------
 4. roadmap (logarithmic, mockup at each step?)
 ---------------------------------------------------------------------
-now
+one
  - bounties:
   - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
 ---------------------------------------------------------------------
-next
+two
  - milestones:
   - unhost user tools (Web Commerce asset)
   - write to user locations (already unhosted)
   - make index that searches users by location, tool
 ---------------------------------------------------------------------
-later
+three
  - milestones:
   - unhost user recipes (Web Commerce asset)
   - make index that searches users by location, recipe
 ---------------------------------------------------------------------
-eventually
+five
  - milestones:
   - unhost 3d designs with openjscad.org
 ---------------------------------------------------------------------
-finally
+eight
  - milestones:
   - unhost user listings (Web Commerce listing) [w/ bitcoin addr]
   - users pay through Web Payments
