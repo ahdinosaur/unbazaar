@@ -26,9 +26,10 @@ open source
  - our software licensed under AGPL (copyleft)
 ---------------------------------------------------------------------
 currency-agnostic
-- payswarm (https://payswarm.com/)
+ - payswarm (https://payswarm.com/)
 ---------------------------------------------------------------------
 ecosystem of marketplace
+ - supports http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm
  - source nodes are producers
  - sink nodes are consumers
  - other nodes are third-party intermediaries
@@ -115,28 +116,35 @@ components of unbazaar
  - Payment Intents => crowdfunding
   - https://payswarm.com/specs/source/payment-intents
 ---------------------------------------------------------------------
-4. roadmap (logarithmic, mockup at each step?)
+4. roadmap (fibonacci steps)
 ---------------------------------------------------------------------
 one
- - bounties:
-  - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
+- clone makexyz listings with unhosted remoteStorage
+ - unhost user tools (Web Commerce asset)
+ - make index that searches users by location, tool
+- bounties:
+ - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
 ---------------------------------------------------------------------
 two
- - milestones:
-  - unhost user tools (Web Commerce asset)
-  - write to user locations (already unhosted)
-  - make index that searches users by location, tool
+- add payments
+- milestones:
+ - unhost listings (Web Commerce listings)
 ---------------------------------------------------------------------
 three
- - milestones:
-  - unhost user recipes (Web Commerce asset)
-  - make index that searches users by location, recipe
+- add other tools
 ---------------------------------------------------------------------
 five
- - milestones:
-  - unhost 3d designs with openjscad.org
+- add bill of materials
+- milestones:
+ - unhost resources (Web Commerce asset)
 ---------------------------------------------------------------------
 eight
- - milestones:
-  - unhost user listings (Web Commerce listing) [w/ bitcoin addr]
-  - users pay through Web Payments
+- add assembly services
+- milestones:
+ - unhost user recipes (Web Commerce asset)
+ - make index that searches users by location, recipe
+---------------------------------------------------------------------
+unstaged
+- add sponsorship for designs
+- add editor for designs
+- add delivery services
