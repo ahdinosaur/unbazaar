@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>unbazaar</title>
+    <meta charset='utf-8'>
+    <meta content='width=1024, user-scalable=no' name='viewport'>
+    <!-- deck.js's core css -->
+    <link href="deck.js/core/deck.core.css" rel="stylesheet" type="text/css"/>
+    <!-- deck.js extension CSS files -->
+    <link href="deck.js/extensions/hash/deck.hash.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/menu/deck.menu.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/goto/deck.goto.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/scale/deck.scale.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/codemirror/deck.codemirror.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/navigation/deck.navigation.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/status/deck.status.css" rel="stylesheet" type="text/css"/>
+    <!-- all css in the css dir: Keydown CSS, your custom CSS, and themes from deck.js -->
+    <link href="css/keydown.css" rel="stylesheet" type="text/css"/>
+    <link href="css/swiss.css" rel="stylesheet" type="text/css"/>
+    <link href="css/docs.css" rel="stylesheet" type="text/css"/>
+    <link href="css/default.css" rel="stylesheet" type="text/css"/>
+    <link href="css/horizontal-slide.css" rel="stylesheet" type="text/css"/>
+    <!-- Modernizr (provided for legacy browsers) -->
+    <script src="deck.js/support/modernizr.custom.js" type="text/javascript"></script>
+  </head>
+  <body class='deck-container keydown'>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>unbazaar</h1>
+        
+        <p>an unhosted marketplace for local production</p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>1. introduction</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>unbazaar is a</h1>
+        
+        <ul>
+        <li>peer-to-peer</li>
+        <li>open source</li>
+        <li>currency agnostic</li>
+        </ul>
+        
+        
+        <h2>marketplace</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>p2p</h1>
+        
+        <h2>http://unhosted.org</h2>
+        
+        <ul>
+        <li>we offer client-side web app
+        
+        <ul>
+        <li>each user runs web app in browser</li>
+        </ul>
+        </li>
+        <li>web app uses per-user data storage
+        
+        <ul>
+        <li>each user hosts own data</li>
+        </ul>
+        </li>
+        <li>web app naturally scales with users at no additional cost
+        
+        <ul>
+        <li>p2p network of browser-side apps with self-hosted per-user data</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>open source</h1>
+        
+        <ul>
+        <li>paradigm shift for development
+        
+        <ul>
+        <li>http://www.catb.org/esr/writings/homesteading/</li>
+        </ul>
+        </li>
+        <li>unbazaar targets early open source economy
+        
+        <ul>
+        <li>http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm</li>
+        </ul>
+        </li>
+        <li>our software licensed under AGPL (copyleft)</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>currency-agnostic</h1>
+        
+        <ul>
+        <li>https://payswarm.com/</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>ecosystem of marketplace</h1>
+        
+        <ul>
+        <li>supports http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm</li>
+        <li>source nodes are producers</li>
+        <li>sink nodes are consumers</li>
+        <li>other nodes are third-party intermediaries
+        
+        <ul>
+        <li>distributers, vendors, ...</li>
+        </ul>
+        </li>
+        <li>anyone can fulfill any role within the marketplace</li>
+        </ul>
+        
+        
+        <p>TODO: make visual graph</p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>2. initial target market</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>consider</h1>
+        
+        <h2>this set of production equipment</h2>
+        
+        <ul>
+        <li>paper printers</li>
+        <li>3d printer</li>
+        <li>laser cutters</li>
+        <li>cnc machines</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>historically</h1>
+        
+        <ul>
+        <li>expensive and closed source</li>
+        <li>required significant investment</li>
+        <li>only used for large-scale manufacturing</li>
+        <li>small number of production factories</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>now</h1>
+        
+        <ul>
+        <li>cheap and open source</li>
+        <li>within reach of everday consumers</li>
+        <li>large number of production microfactories</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>existing communities</h1>
+        
+        <h2>early producers (adopters)</h2>
+        
+        <ul>
+        <li>hackerspaces
+        
+        <ul>
+        <li>most have production equipment
+        
+        <ul>
+        <li>3d printers > laser cutters > cnc machines</li>
+        </ul>
+        </li>
+        <li>http://hackerspaces.org/wiki/List_of_Hacker_Spaces</li>
+        </ul>
+        </li>
+        <li>members of hackerspaces
+        
+        <ul>
+        <li>comfortable with bleeding edge systems (willing to go beyond status quo)</li>
+        <li>many have production equipment</li>
+        <li>many have already contributed to open source</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>currently</h1>
+        
+        <h2>producer equipment within budget</h2>
+        
+        <ul>
+        <li>paper printing
+        
+        <ul>
+        <li>bundled with expensive ink deals</li>
+        <li>right now usually closed source, so could be cheaper</li>
+        </ul>
+        </li>
+        <li>3d printing
+        
+        <ul>
+        <li>http://www.reprap.org/wiki/RepRap_Options#Models</li>
+        <li>http://www.makexyz.com/</li>
+        </ul>
+        </li>
+        <li>laser cutters
+        
+        <ul>
+        <li>http://labs.nortd.com/lasersaur/</li>
+        </ul>
+        </li>
+        <li>cnc machines
+        
+        <ul>
+        <li>http://www.shapeoko.com/</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>yet after purchasing,</h1>
+        
+        <h2>this equipment is idle</h2>
+        
+        <ul>
+        <li>aside from occasional projects, most equipment spends most time idle</li>
+        <li>huge loss of equipment potential</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>meanwhile</h1>
+        
+        <h2>high consumer demand</h2>
+        
+        <ul>
+        <li>paper printing
+        
+        <ul>
+        <li>copy centers</li>
+        </ul>
+        </li>
+        <li>3d printed parts
+        
+        <ul>
+        <li>http://www.shapeways.com/</li>
+        <li>http://www.thingiverse.com/</li>
+        </ul>
+        </li>
+        <li>furniture</li>
+        <li>art</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>the goal of unbazaar</h1>
+        
+        <h2>connect consumers with local producers</h2>
+        
+        <ul>
+        <li>producers list equipment
+        
+        <ul>
+        <li>equipment does bulk of work</li>
+        <li>helps repay initial equpiment cost</li>
+        </ul>
+        </li>
+        <li>consumers find equipment
+        
+        <ul>
+        <li>less distance for shipping</li>
+        <li>competitive with existing prices</li>
+        <li>supports local business</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>3. technical overview</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>components of unbazaar</h1>
+        
+        <ul>
+        <li>remoteStorage => per-user data
+        
+        <ul>
+        <li>http://remotestorage.io/</li>
+        </ul>
+        </li>
+        <li>Web Keys => identity
+        
+        <ul>
+        <li>https://payswarm.com/specs/source/web-keys</li>
+        </ul>
+        </li>
+        <li>Web Payments => currency exchange
+        
+        <ul>
+        <li>https://payswarm.com/specs/source/web-payments</li>
+        </ul>
+        </li>
+        <li>Web Commerce => asset listings
+        
+        <ul>
+        <li>https://payswarm.com/specs/source/web-commerce</li>
+        </ul>
+        </li>
+        <li>sockethub => social media
+        
+        <ul>
+        <li>http://sockethub.org/</li>
+        </ul>
+        </li>
+        <li>Payment Intents => crowdfunding
+        
+        <ul>
+        <li>https://payswarm.com/specs/source/payment-intents</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>4. roadmap (fibonacci steps)</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>one</h1>
+        
+        <ul>
+        <li>clone makexyz listings with unhosted remoteStorage</li>
+        <li>unhost user tools (Web Commerce asset)</li>
+        <li>make index that searches users by location, tool</li>
+        <li>bounties:
+        
+        <ul>
+        <li>https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>two</h1>
+        
+        <ul>
+        <li>add payments</li>
+        <li>milestones:
+        
+        <ul>
+        <li>unhost listings (Web Commerce listings)</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>three</h1>
+        
+        <ul>
+        <li>add other tools</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>five</h1>
+        
+        <ul>
+        <li>add bill of materials</li>
+        <li>milestones:
+        
+        <ul>
+        <li>unhost resources (Web Commerce asset)</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>eight</h1>
+        
+        <ul>
+        <li>add assembly services</li>
+        <li>milestones:
+        
+        <ul>
+        <li>unhost user recipes (Web Commerce asset)</li>
+        <li>make index that searches users by location, recipe</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>unstaged</h1>
+        
+        <ul>
+        <li>add sponsorship for designs</li>
+        <li>add editor for designs</li>
+        <li>add delivery services</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <!-- deck.js navigation extension -->
+    <a class='deck-prev-link' href='#' title='Previous'>&#8592;</a>
+    <a class='deck-next-link' href='#' title='Next'>&#8594;</a>
+    <!-- deck.js hash extension -->
+    <a class='deck-permalink' href='.' title='Permalink to this slide'>#</a>
+    <!-- deck.js status extension -->
+    <p class='deck-status'>
+      <span class='deck-status-current'></span>
+      /
+      <span class='deck-status-total'></span>
+    </p>
+    <!-- jQuery & deck.js -->
+    <script src="deck.js/support/jquery.1.6.4.min.js" type="text/javascript"></script>
+    <script src="deck.js/core/deck.core.js" type="text/javascript"></script>
+    <!-- deck.js extension JS files -->
+    <script src="deck.js/extensions/hash/deck.hash.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/menu/deck.menu.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/goto/deck.goto.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/scale/deck.scale.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/codemirror.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/deck.codemirror.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/stex/stex.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/haskell/haskell.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/coffeescript/coffeescript.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/htmlmixed/htmlmixed.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/sparql/sparql.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/xml/xml.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/plsql/plsql.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/clojure/clojure.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/clike/clike.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/smalltalk/smalltalk.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/javascript/javascript.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/lua/lua.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/python/python.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/php/php.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/yaml/yaml.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/xmlpure/xmlpure.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/css/css.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/velocity/velocity.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/scheme/scheme.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/diff/diff.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/ruby/ruby.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/r/r.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/rst/rst.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/navigation/deck.navigation.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/status/deck.status.js" type="text/javascript"></script>
+    <!-- your custom JS here, including call to initialize deck.js-codemirror -->
+    <script src="js/docs.js" type="text/javascript"></script>
+    <!-- Initialize the deck. -->
+    <script type='text/javascript'>
+      $(function() { $.deck('.slide'); });
+    </script>
+  </body>
+</html>
