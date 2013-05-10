@@ -52,7 +52,6 @@ an unhosted marketplace for local production
 
 # ecosystem of marketplace
 
-- supports http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm
 - source nodes are producers
 - sink nodes are consumers
 - other nodes are third-party intermediaries
@@ -63,15 +62,16 @@ TODO: make visual graph
 
 !SLIDE
 
-# 2. initial target market
+# 2. target market
+
+[open source economy](http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm)
 
 !SLIDE left
 
 # consider
 ## this set of production equipment
 
-- paper printers
-- 3d printer
+- 3d printers
 - laser cutters 
 - cnc machines
 
@@ -82,65 +82,36 @@ TODO: make visual graph
 - expensive and closed source
 - required significant investment
 - only used for large-scale manufacturing
-- small number of production factories
+- found in small number of production factories
 
 !SLIDE left
 
 # now
 
 - cheap and open source
+  - 3d printing
+    - http://www.reprap.org/wiki/RepRap_Options#Models
+    - http://www.makexyz.com/
+  - laser cutters
+    - http://labs.nortd.com/lasersaur/
+  - cnc machines
+    - http://www.shapeoko.com/
 - within reach of everday consumers
-- large number of production microfactories
+- capable of large number of production microfactories
 
 !SLIDE left
 
-# existing communities 
-## early producers (adopters)
+# yet most microfactories
+## are idle
 
-- hackerspaces
-  - most have production equipment
-    - 3d printers > laser cutters > cnc machines
-  - http://hackerspaces.org/wiki/List_of_Hacker_Spaces
-- members of hackerspaces
-  - comfortable with bleeding edge systems (willing to go beyond status quo)
-  - many have production equipment
-  - many have already contributed to open source
-
-!SLIDE left
-
-# currently
-## producer equipment within budget
-
-- paper printing
-  - bundled with expensive ink deals
-  - right now usually closed source, so could be cheaper
-- 3d printing
-  - http://www.reprap.org/wiki/RepRap_Options#Models
-  - http://www.makexyz.com/
-- laser cutters
-  - http://labs.nortd.com/lasersaur/
-- cnc machines
-  - http://www.shapeoko.com/
-
-!SLIDE left
-
-# yet after purchasing,
-## this equipment is idle
 - aside from occasional projects, most equipment spends most time idle
 - huge loss of equipment potential
-
-!SLIDE left
-
-# meanwhile
-## high consumer demand
-
-- paper printing
-  - copy centers
-- 3d printed parts
-  - http://www.shapeways.com/
-  - http://www.thingiverse.com/ 
-- furniture
-- art
+- high demand for possible production
+  - 3d printed parts
+    - http://www.shapeways.com/
+    - http://www.thingiverse.com/ 
+  - furniture
+  - art
 
 !SLIDE left
 
@@ -157,6 +128,20 @@ TODO: make visual graph
 
 !SLIDE left
 
+# target audience
+## early producers
+
+- hackerspaces
+  - most have production equipment
+    - 3d printers > laser cutters > cnc machines
+  - http://hackerspaces.org/wiki/List_of_Hacker_Spaces
+- members of hackerspaces
+  - comfortable with bleeding edge systems (willing to go beyond status quo)
+  - many have production equipment
+  - many have already contributed to open source
+
+!SLIDE left
+
 # 3. technical overview
 
 !SLIDE left
@@ -165,9 +150,12 @@ TODO: make visual graph
 
 - remoteStorage => per-user data
   - http://remotestorage.io/
-- Web Keys => identity
-  - https://payswarm.com/specs/source/web-keys
+- backbonejs => model / view
+  - http://backbonejs.org/
+- requirejs => module loader
+  - http://requirejs.org/
 - Web Payments => currency exchange
+  - http://web-payments.github.io/browser-payments/
   - https://payswarm.com/specs/source/web-payments
 - Web Commerce => asset listings
   - https://payswarm.com/specs/source/web-commerce
@@ -228,3 +216,4 @@ TODO: make visual graph
 - add sponsorship for designs
 - add editor for designs
 - add delivery services
+- add computer resources

@@ -126,7 +126,6 @@
         <h1>ecosystem of marketplace</h1>
         
         <ul>
-        <li>supports http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm</li>
         <li>source nodes are producers</li>
         <li>sink nodes are consumers</li>
         <li>other nodes are third-party intermediaries
@@ -146,7 +145,9 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <h1>2. initial target market</h1>
+        <h1>2. target market</h1>
+        
+        <p><a href="http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm">open source economy</a></p>
       </div>
       <div class='spacer bottom'></div>
     </section>
@@ -158,8 +159,7 @@
         <h2>this set of production equipment</h2>
         
         <ul>
-        <li>paper printers</li>
-        <li>3d printer</li>
+        <li>3d printers</li>
         <li>laser cutters</li>
         <li>cnc machines</li>
         </ul>
@@ -175,7 +175,7 @@
         <li>expensive and closed source</li>
         <li>required significant investment</li>
         <li>only used for large-scale manufacturing</li>
-        <li>small number of production factories</li>
+        <li>found in small number of production factories</li>
         </ul>
       </div>
       <div class='spacer bottom'></div>
@@ -186,60 +186,9 @@
         <h1>now</h1>
         
         <ul>
-        <li>cheap and open source</li>
-        <li>within reach of everday consumers</li>
-        <li>large number of production microfactories</li>
-        </ul>
-      </div>
-      <div class='spacer bottom'></div>
-    </section>
-    <section class='left slide'>
-      <div class='spacer top'></div>
-      <div class='content'>
-        <h1>existing communities</h1>
-        
-        <h2>early producers (adopters)</h2>
+        <li>cheap and open source
         
         <ul>
-        <li>hackerspaces
-        
-        <ul>
-        <li>most have production equipment
-        
-        <ul>
-        <li>3d printers > laser cutters > cnc machines</li>
-        </ul>
-        </li>
-        <li>http://hackerspaces.org/wiki/List_of_Hacker_Spaces</li>
-        </ul>
-        </li>
-        <li>members of hackerspaces
-        
-        <ul>
-        <li>comfortable with bleeding edge systems (willing to go beyond status quo)</li>
-        <li>many have production equipment</li>
-        <li>many have already contributed to open source</li>
-        </ul>
-        </li>
-        </ul>
-      </div>
-      <div class='spacer bottom'></div>
-    </section>
-    <section class='left slide'>
-      <div class='spacer top'></div>
-      <div class='content'>
-        <h1>currently</h1>
-        
-        <h2>producer equipment within budget</h2>
-        
-        <ul>
-        <li>paper printing
-        
-        <ul>
-        <li>bundled with expensive ink deals</li>
-        <li>right now usually closed source, so could be cheaper</li>
-        </ul>
-        </li>
         <li>3d printing
         
         <ul>
@@ -260,37 +209,26 @@
         </ul>
         </li>
         </ul>
+        </li>
+        <li>within reach of everday consumers</li>
+        <li>capable of large number of production microfactories</li>
+        </ul>
       </div>
       <div class='spacer bottom'></div>
     </section>
     <section class='left slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <h1>yet after purchasing,</h1>
+        <h1>yet most microfactories</h1>
         
-        <h2>this equipment is idle</h2>
+        <h2>are idle</h2>
         
         <ul>
         <li>aside from occasional projects, most equipment spends most time idle</li>
         <li>huge loss of equipment potential</li>
-        </ul>
-      </div>
-      <div class='spacer bottom'></div>
-    </section>
-    <section class='left slide'>
-      <div class='spacer top'></div>
-      <div class='content'>
-        <h1>meanwhile</h1>
-        
-        <h2>high consumer demand</h2>
+        <li>high demand for possible production
         
         <ul>
-        <li>paper printing
-        
-        <ul>
-        <li>copy centers</li>
-        </ul>
-        </li>
         <li>3d printed parts
         
         <ul>
@@ -300,6 +238,8 @@
         </li>
         <li>furniture</li>
         <li>art</li>
+        </ul>
+        </li>
         </ul>
       </div>
       <div class='spacer bottom'></div>
@@ -334,6 +274,38 @@
     <section class='left slide'>
       <div class='spacer top'></div>
       <div class='content'>
+        <h1>target audience</h1>
+        
+        <h2>early producers</h2>
+        
+        <ul>
+        <li>hackerspaces
+        
+        <ul>
+        <li>most have production equipment
+        
+        <ul>
+        <li>3d printers > laser cutters > cnc machines</li>
+        </ul>
+        </li>
+        <li>http://hackerspaces.org/wiki/List_of_Hacker_Spaces</li>
+        </ul>
+        </li>
+        <li>members of hackerspaces
+        
+        <ul>
+        <li>comfortable with bleeding edge systems (willing to go beyond status quo)</li>
+        <li>many have production equipment</li>
+        <li>many have already contributed to open source</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
         <h1>3. technical overview</h1>
       </div>
       <div class='spacer bottom'></div>
@@ -350,15 +322,22 @@
         <li>http://remotestorage.io/</li>
         </ul>
         </li>
-        <li>Web Keys => identity
+        <li>backbonejs => model / view
         
         <ul>
-        <li>https://payswarm.com/specs/source/web-keys</li>
+        <li>http://backbonejs.org/</li>
+        </ul>
+        </li>
+        <li>requirejs => module loader
+        
+        <ul>
+        <li>http://requirejs.org/</li>
         </ul>
         </li>
         <li>Web Payments => currency exchange
         
         <ul>
+        <li>http://web-payments.github.io/browser-payments/</li>
         <li>https://payswarm.com/specs/source/web-payments</li>
         </ul>
         </li>
@@ -482,6 +461,7 @@
         <li>add sponsorship for designs</li>
         <li>add editor for designs</li>
         <li>add delivery services</li>
+        <li>add computer resources</li>
         </ul>
       </div>
       <div class='spacer bottom'></div>
