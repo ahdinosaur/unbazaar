@@ -172,9 +172,10 @@ TODO: make visual graph
 
 # one
 
-- clone makexyz listings with unhosted remoteStorage
-- unhost user tools (Web Commerce asset)
-- make index that searches users by location, tool
+- clone http://makexyz.com listings with unhosted remoteStorage
+- milestones:
+  - unhost user tools (Web Commerce asset)
+  - make index that searches users by location, tool
 - bounties:
   - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
 
@@ -191,6 +192,8 @@ TODO: make visual graph
 # three
 
 - add other tools
+  - laser cutters
+  - cnc machines
 
 !SLIDE left
 
@@ -198,7 +201,8 @@ TODO: make visual graph
 
 - add bill of materials
 - milestones:
-  - unhost resources (Web Commerce asset)
+  - unhost materials (Web Commerce asset)
+  - make index that searches users by location, material
 
 !SLIDE left
 
@@ -216,4 +220,4 @@ TODO: make visual graph
 - add sponsorship for designs
 - add editor for designs
 - add delivery services
-- add computer resources
+- add computer to tools
