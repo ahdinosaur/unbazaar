@@ -23,7 +23,7 @@ an unhosted marketplace for local production
 !SLIDE left
 
 # p2p
-## http://unhosted.org
+## <http://unhosted.org>
 
 - we offer client-side web app
   - each user runs web app in browser
@@ -37,16 +37,16 @@ an unhosted marketplace for local production
 # open source
 
 - paradigm shift for development
-  - http://www.catb.org/esr/writings/homesteading/
+  - <http://www.catb.org/esr/writings/homesteading/>
 - unbazaar targets early open source economy
-  - http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm
+  - <http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm>
 - our software licensed under AGPL (copyleft)
 
 !SLIDE left
 
 # currency-agnostic
 
-- https://payswarm.com/
+- <https://payswarm.com/>
 
 !SLIDE left
 
@@ -90,12 +90,12 @@ TODO: make visual graph
 
 - cheap and open source
   - 3d printing
-    - http://www.reprap.org/wiki/RepRap_Options#Models
-    - http://www.makexyz.com/
+    - <http://www.reprap.org/wiki/RepRap_Options#Models>
+    - <http://www.makexyz.com/>
   - laser cutters
-    - http://labs.nortd.com/lasersaur/
+    - <http://labs.nortd.com/lasersaur/>
   - cnc machines
-    - http://www.shapeoko.com/
+    - <http://www.shapeoko.com/>
 - within budget of everday consumers
 - capable of large number of production microfactories
 
@@ -108,8 +108,8 @@ TODO: make visual graph
 - huge loss of equipment potential
 - high demand for possible production
   - 3d printed parts
-    - http://www.shapeways.com/
-    - http://www.thingiverse.com/ 
+    - <http://www.shapeways.com/>
+    - <http://www.thingiverse.com/>
   - furniture
   - art
 
@@ -134,7 +134,7 @@ TODO: make visual graph
 - hackerspaces
   - most have production equipment
     - 3d printers > laser cutters > cnc machines
-  - http://hackerspaces.org/wiki/List_of_Hacker_Spaces
+  - <http://hackerspaces.org/wiki/List_of_Hacker_Spaces>
 - members of hackerspaces
   - comfortable with bleeding edge systems (willing to go beyond status quo)
   - many have production equipment
@@ -149,20 +149,20 @@ TODO: make visual graph
 # components of unbazaar
 
 - remoteStorage => per-user data
-  - http://remotestorage.io/
+  - <http://remotestorage.io/>
 - backbonejs => model / view
-  - http://backbonejs.org/
+  - <http://backbonejs.org/>
 - requirejs => module loader
-  - http://requirejs.org/
+  - <http://requirejs.org/>
 - Web Payments => currency exchange
-  - http://web-payments.github.io/browser-payments/
-  - https://payswarm.com/specs/source/web-payments
+  - <http://web-payments.github.io/browser-payments/>
+  - <https://payswarm.com/specs/source/web-payments>
 - Web Commerce => asset listings
-  - https://payswarm.com/specs/source/web-commerce
+  - <https://payswarm.com/specs/source/web-commerce>
 - sockethub => social media
-  - http://sockethub.org/
+  - <http://sockethub.org/>
 - Payment Intents => crowdfunding
-  - https://payswarm.com/specs/source/payment-intents
+  - <https://payswarm.com/specs/source/payment-intents>
 
 !SLIDE
 
@@ -172,12 +172,12 @@ TODO: make visual graph
 
 # one
 
-- clone http://makexyz.com listings with unhosted remoteStorage
+- clone [makexyz](http://makexyz.com) listings with unhosted remoteStorage
 - milestones:
   - unhost user tools (Web Commerce asset)
   - make index that searches users by location, tool
 - bounties:
-  - https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro
+  - <https://groups.google.com/forum/?fromgroups=#!topic/unhosted/SpB_i6md0Ro>
 
 !SLIDE left
 
