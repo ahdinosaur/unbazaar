@@ -140,7 +140,7 @@ TODO: make visual graph
   - many have production equipment
   - many have already contributed to open source
 
-!SLIDE left
+!SLIDE
 
 # 3. technical overview
 
@@ -164,7 +164,7 @@ TODO: make visual graph
 - Payment Intents => crowdfunding
   - https://payswarm.com/specs/source/payment-intents
 
-!SLIDE left
+!SLIDE
 
 # 4. roadmap (fibonacci steps)
 
