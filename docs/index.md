@@ -96,15 +96,15 @@ TODO: make visual graph
     - http://labs.nortd.com/lasersaur/
   - cnc machines
     - http://www.shapeoko.com/
-- within reach of everday consumers
+- within budget of everday consumers
 - capable of large number of production microfactories
 
 !SLIDE left
 
-# yet most microfactories
-## are idle
+# yet personal equipment
+## left idle
 
-- aside from occasional projects, most equipment spends most time idle
+- aside from occasional projects, personal equipment spends most time idle
 - huge loss of equipment potential
 - high demand for possible production
   - 3d printed parts
