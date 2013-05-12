@@ -183,13 +183,19 @@ TODO: make visual graph
 
 # two
 
+- add user reputation
+
+!SLIDE left
+
+# three
+
 - add payments
 - milestones:
   - unhost listings (Web Commerce listings)
 
 !SLIDE left
 
-# three
+# five
 
 - add other tools
   - laser cutters
@@ -197,7 +203,7 @@ TODO: make visual graph
 
 !SLIDE left
 
-# five
+# eight
 
 - add bill of materials
 - milestones:
@@ -206,7 +212,7 @@ TODO: make visual graph
 
 !SLIDE left
 
-# eight
+# thirteen
 
 - add assembly services
 - milestones:
