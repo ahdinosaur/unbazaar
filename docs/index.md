@@ -166,7 +166,8 @@ TODO: make visual graph
 
 !SLIDE
 
-# 4. roadmap (fibonacci steps)
+# 4. roadmap
+## fibonacci steps
 
 !SLIDE left
 
