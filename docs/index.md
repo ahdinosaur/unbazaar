@@ -22,15 +22,17 @@ an unhosted marketplace for local production
 
 !SLIDE left
 
-# p2p
+# peer-to-peer
 ## <http://unhosted.org>
 
-- we offer client-side web app
-  - each user runs web app in browser
+    also known as "serverless", "client-side", or "static" web apps, unhosted web apps do not send your user data to their server. either you connect your own server at runtime, or your data stays within the browser.
+
+- we offer web application
+  - works on any device, no matter which platform or provider
 - web app uses per-user data storage
-  - each user hosts own data 
-- web app naturally scales with users at no additional cost
-  - p2p network of browser-side apps with self-hosted per-user data
+  - each user has independent data storage
+  - same data storage works on other unhosted web apps
+- web app scales to infinite number of users at no additional backend cost
 
 !SLIDE left
 
