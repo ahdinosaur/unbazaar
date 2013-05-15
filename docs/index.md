@@ -22,31 +22,37 @@ an unhosted marketplace for local production
 
 !SLIDE left
 
-# p2p
+# peer-to-peer
 ## <http://unhosted.org>
 
-- we offer client-side web app
-  - each user runs web app in browser
+    also known as "serverless", "client-side", or "static" web apps, unhosted web apps do not send your user data to their server. either you connect your own server at runtime, or your data stays within the browser.
+
+- we offer web application
+  - works on any device, no matter which platform or provider
 - web app uses per-user data storage
-  - each user hosts own data 
-- web app naturally scales with users at no additional cost
-  - p2p network of browser-side apps with self-hosted per-user data
+  - each user has independent data storage
+  - same data storage works on other unhosted web apps
+- web app scales to infinite number of users at no additional backend cost
 
 !SLIDE left
 
 # open source
 
 - paradigm shift for development
-  - <http://www.catb.org/esr/writings/homesteading/>
-- unbazaar targets early open source economy
-  - <http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm>
-- our software licensed under AGPL (copyleft)
+  - [open rather than closed](http://www.catb.org/esr/writings/homesteading/)
+- we target early [open source economy](http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm)
+- our software licensed under [AGPL](http://www.gnu.org/licenses/agpl.html) ([copyleft](http://www.gnu.org/copyleft/))
 
 !SLIDE left
 
 # currency-agnostic
+## <https://payswarm.com/>
 
-- <https://payswarm.com/>
+- universal payment standard for the web
+  - patent-free, royalty-free, based on open technology
+- allows transactions of any currency
+- reduces fees for making transactions
+
 
 !SLIDE left
 
@@ -56,7 +62,7 @@ an unhosted marketplace for local production
 - sink nodes are consumers
 - other nodes are third-party intermediaries
    - distributers, vendors, ...
-- anyone can fulfill any role within the marketplace
+- we want to make it easy for anyone to fulfill any role within the marketplace
 
 TODO: make visual graph
 
@@ -101,17 +107,16 @@ TODO: make visual graph
 
 !SLIDE left
 
-# yet personal equipment
+# but personal equipment
 ## left idle
 
-- aside from occasional projects, personal equipment spends most time idle
+- aside from occasional projects, personal equipment spends most of its time idle
 - huge loss of equipment potential
 - high demand for possible production
   - 3d printed parts
-    - <http://www.shapeways.com/>
-    - <http://www.thingiverse.com/>
   - furniture
   - art
+  - other things found on [thingiverse](http://www.thingiverse.com), [shapeways](http://www.shapeways.com/)
 
 !SLIDE left
 
@@ -129,12 +134,12 @@ TODO: make visual graph
 !SLIDE left
 
 # target audience
-## early producers
+## early adopters
 
 - hackerspaces
   - most have production equipment
     - 3d printers > laser cutters > cnc machines
-  - <http://hackerspaces.org/wiki/List_of_Hacker_Spaces>
+  - [list of hackerspaces](http://hackerspaces.org/wiki/List_of_Hacker_Spaces)
 - members of hackerspaces
   - comfortable with bleeding edge systems (willing to go beyond status quo)
   - many have production equipment
@@ -174,7 +179,6 @@ TODO: make visual graph
 # one
 
 - clone [makexyz](http://makexyz.com) listings with unhosted remoteStorage
-- milestones:
   - unhost user tools (Web Commerce asset)
   - make index that searches users by location, tool
 - bounties:
@@ -191,7 +195,6 @@ TODO: make visual graph
 # three
 
 - add payments
-- milestones:
   - unhost listings (Web Commerce listings)
 
 !SLIDE left
@@ -207,7 +210,6 @@ TODO: make visual graph
 # eight
 
 - add bill of materials
-- milestones:
   - unhost materials (Web Commerce asset)
   - make index that searches users by location, material
 
@@ -216,7 +218,6 @@ TODO: make visual graph
 # thirteen
 
 - add assembly services
-- milestones:
   - unhost user recipes (Web Commerce asset)
   - make index that searches users by location, recipe
 
