@@ -10,6 +10,8 @@ an unhosted marketplace for local production
 
 # 1. introduction
 
+![unbazaar dinos #1](images/unbazaar dinos 1.png)
+
 !SLIDE
 
 # unbazaar is a
@@ -71,6 +73,8 @@ TODO: make visual graph
 # 2. target market
 
 [open source economy](http://opensourceecology.org/wiki/Open_Source_Ecology_Paradigm)
+
+![unbazaar dinos #2](images/unbazaar dinos 2.png)
 
 !SLIDE left
 
@@ -149,6 +153,8 @@ TODO: make visual graph
 
 # 3. technical overview
 
+![unbazaar dino #3](images/unbazaar dino 3.png)
+
 !SLIDE left
 
 # components of unbazaar
@@ -173,6 +179,8 @@ TODO: make visual graph
 
 # 4. roadmap
 ## fibonacci steps
+
+![unbazaar dino #4](images/unbazaar dino 4.png)
 
 !SLIDE left
 
