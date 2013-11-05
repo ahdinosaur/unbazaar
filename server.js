@@ -1,8 +1,13 @@
 var http = require('http');
 var fs = require('fs');
-var ecstatic = require('ecstatic')(__dirname + '/static');
 var trumpet = require('trumpet');
 var duplexer = require('duplexer');
+var path = require('path');
+
+var express = require('express');
+var static = require('ecstatic');
+var less = require('less-middleware');
+var browserify = require('browserify-middleware');
 
 var levelgraph = require('levelgraph');
 var leveljsonld = require('levelgraph-jsonld');
@@ -50,13 +55,37 @@ tabby.add('/person/:name', {
   render: require('./render/person.js')
 });
 */
-var server = http.createServer(function (req, res) {
+var app = express();
+app.use(express.bodyParser());
+app.use(express.methodOverride());
+
+// setup tabby
+app.use(function (req, res, next) {
   if (tabby.test(req)) {
     tabby.handle(req, res);
+  } else {
+    next();
   }
-  else ecstatic(req, res);
 });
-server.listen(5000);
+
+// setup browserify
+app.use('/js/index.js', browserify(__dirname + '/browser.js'));
+
+// setup less w/ bootstrap
+var bootstrapPath = path.join(__dirname, 'node_modules', 'bootstrap');
+app.use('/img', static(path.join(bootstrapPath, 'img')));
+app.use(less({
+  src: path.join(__dirname, 'less'),
+  paths: [
+    path.join(__dirname, 'less'),
+    path.join(bootstrapPath, 'less')
+  ],
+  dest: path.join(__dirname, 'static', 'css'),
+  prefix: '/css'
+}));
+app.use(static(__dirname + '/static'));
+
+var server = app.listen(5000);
 
 var sock = require('shoe')(function (stream) {
   stream.pipe(tabby.createStream()).pipe(stream);

@@ -2,7 +2,6 @@
   "name": "unbazaar",
   "version": "0.0.1",
   "scripts": {
-    "watch": "watchify browser.js -o static/bundle.js -dv",
     "start": "node server.js"
   },
   "dependencies": {
@@ -16,10 +15,10 @@
     "hyperspace": "~0.5.0",
     "arraystream": "0.0.5",
     "map-stream": "0.0.3",
-    "async": "~0.2.9"
-  },
-  "devDependencies": {
-    "watchify": "~0.3.0",
-    "browserify": "~2.35.1"
+    "async": "~0.2.9",
+    "express": "~3.4.4",
+    "bootstrap": "git+https://github.com/twitter/bootstrap.git#v3.0.1",
+    "less-middleware": "~0.1.12",
+    "browserify-middleware": "~1.19.0"
   }
 }

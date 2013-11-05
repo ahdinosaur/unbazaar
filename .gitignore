@@ -1,5 +1,5 @@
-/static/bundle.js
-
+/static/js/index.js
+/static/css/index.css
 
 node_modules
 *.swp
