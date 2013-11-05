@@ -4,7 +4,6 @@ var html = fs.readFileSync(__dirname + '/things.html', 'utf8');
 
 module.exports = function () {
   return hyperspace(html, function (thing) {
-    console.log("render", thing);
     return {
       '.name': {
         href: "/things/" + thing['@id'],

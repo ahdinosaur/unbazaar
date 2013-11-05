@@ -11,7 +11,7 @@ var browserify = require('browserify-middleware');
 
 var levelgraph = require('levelgraph');
 var leveljsonld = require('levelgraph-jsonld');
-var db = leveljsonld(levelgraph("db"));
+var db = leveljsonld(levelgraph(__dirname + '/../db'));
 
 var config = require('./config.js');
 
@@ -22,13 +22,13 @@ var tabby = require('tabby')(function (route, params) {
 
   return duplexer(
     tr.createWriteStream('#main'),
-    fs.createReadStream(__dirname + '/static/index.html').pipe(tr)
+    fs.createReadStream(__dirname + '/templates/index.html').pipe(tr)
   );
 });
 
 tabby.add('/', {
   render: function () {
-    return fs.createReadStream(__dirname + '/static/home.html');
+    return fs.createReadStream(__dirname + '/templates/home.html');
   }
 });
 
@@ -70,7 +70,7 @@ app.use(function (req, res, next) {
 app.use('/js/index.js', browserify(__dirname + '/browser.js'));
 
 // setup less w/ bootstrap
-var bootstrapPath = path.join(__dirname, 'node_modules', 'bootstrap');
+var bootstrapPath = path.join(__dirname, '/../', 'node_modules', 'bootstrap');
 app.use('/img', static(path.join(bootstrapPath, 'img')));
 app.use(less({
   src: path.join(__dirname, 'less'),
@@ -78,11 +78,12 @@ app.use(less({
     path.join(__dirname, 'less'),
     path.join(bootstrapPath, 'less')
   ],
-  dest: path.join(__dirname, 'static', 'css'),
+  dest: path.join(__dirname, '/../', 'assets', 'css'),
   prefix: '/css',
-  debug: config.debug
+  relativeUrls: true,
+  compress: true
 }));
-app.use(static(__dirname + '/static'));
+app.use(static(__dirname + '/../assets'));
 
 var server = app.listen(5000);
 

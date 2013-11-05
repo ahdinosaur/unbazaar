@@ -9,7 +9,7 @@ var thing = {
 
 var levelgraph = require('levelgraph');
 var leveljsonld = require('levelgraph-jsonld');
-var db = leveljsonld(levelgraph("db"));
+var db = leveljsonld(levelgraph(__dirname + '/../db'));
 
 db.join([{
   subject: db.v("Thing")
