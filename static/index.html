@@ -1,16 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="/css/index.css">
   </head>
   <body>
     <header>
-      <h1 id="title"></h1>
-      <nav>
-        <ul id="tabs">
-          <li><a href="/">home</a></li>
-          <li><a href="/things">things</a></li>
-          <li><a href="/people">people</a></li>
-        </ul>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="brand" class="navbar-brand" href="/"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul id="tabs" class="nav navbar-nav">
+            <li><a href="/things">things</a></li>
+            <li><a href="/people">people</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main id="main"></main>

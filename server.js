@@ -13,12 +13,12 @@ var levelgraph = require('levelgraph');
 var leveljsonld = require('levelgraph-jsonld');
 var db = leveljsonld(levelgraph("db"));
 
+var config = require('./config.js');
+
 var tabby = require('tabby')(function (route, params) {
   var tr = trumpet();
-  var title = route.title;
 
-  if (typeof title === 'function') title = title(params);
-  tr.createWriteStream('#title').end(title);
+  tr.createWriteStream('#brand').end(config.brand);
 
   return duplexer(
     tr.createWriteStream('#main'),
@@ -27,14 +27,12 @@ var tabby = require('tabby')(function (route, params) {
 });
 
 tabby.add('/', {
-  title: "home",
   render: function () {
     return fs.createReadStream(__dirname + '/static/home.html');
   }
 });
 
 tabby.add('/things', {
-  title: "things",
   data: require('./data/things.js')(db),
   render: require('./render/things.js')
 });
@@ -81,7 +79,8 @@ app.use(less({
     path.join(bootstrapPath, 'less')
   ],
   dest: path.join(__dirname, 'static', 'css'),
-  prefix: '/css'
+  prefix: '/css',
+  debug: config.debug
 }));
 app.use(static(__dirname + '/static'));
 
